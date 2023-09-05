@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite guice-stage="DEVELOPMENT" name="SDC Test Suite">  -->
+  <!--  <test verbose="2" name="SDC ST test">  -->
+  <!-- Enter this MRCType correctly if you are running stand-alone verification -->
+  
+
+<!-- <suite name="SDC Regression Test Suite" parallel = "none"> --> <!-- parallel = "tests" -->
+<suite name="SDC Regression Post Processing Suite" configfailurepolicy="continue">
+ <parameter name="Browser" value = "Chrome"> </parameter>
+ <!-- <parameter name="Browser" value = "FF"> </parameter> -->
+ 
+  <listeners>
+	<listener class-name="TestNGReportCustomisation.CustomTestNGReporter"/>
+  </listeners>
+   
+   <test name="Post Processing File Export - Reports">
+    <classes>     
+     <class name="testCases.PostProcessingResultsExport"/>           
+    </classes>    
+  </test>
+  
+ 
+</suite> <!-- Default suite -->
+            

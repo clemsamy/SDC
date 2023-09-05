@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite guice-stage="DEVELOPMENT" name="SDC Test Suite">  -->
+  <!--  <test verbose="2" name="SDC ST test">  -->
+  <!-- Enter this MRCType correctly if you are running stand-alone verification -->
+  
+
+<!-- <suite name="SDC Regression Test Suite" configfailurepolicy="continue"> -->
+<suite name="SDC Regression Test Suite" parallel = "none">  <!-- parallel = "tests" -->
+ <parameter name="Browser" value = "Chrome"> </parameter>
+ <!-- <parameter name="Browser" value = "FF"> </parameter> -->
+ 
+ <listeners>
+	<listener class-name="TestNGReportCustomisation.CustomTestNGReporter"/>
+  </listeners>
+  
+   <test name="SysTest MRC Process">   
+    <parameter name="Environment" value = "ST"> </parameter>
+    <parameter name="STURL" value = "https://www.test.com/"> </parameter>
+    <parameter name="Username" value = "clement@london"> </parameter>
+    <parameter name="STPassword" value = "SDCLogin321111111$"> </parameter>    
+    <classes>     
+     <class name="testCases.SysTestFileProcessing"/>          
+    </classes>    
+  </test>
+  
+ 
+  
+  				<!--  Phase 1 - 8 Tests Completed  -->	
+    
+        		<!--  Phase 2 - 10 Email Tests(ST & UAT)  -->
+    
+ 
+</suite> <!-- Default suite -->
+            

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite guice-stage="DEVELOPMENT" name="SDC Test Suite">  -->
+  <!--  <test verbose="2" name="SDC ST test">  -->
+  <!-- Enter this MRCType correctly if you are running stand-alone verification -->
+  
+
+<!-- <suite name="SDC Regression Test Suite" configfailurepolicy="continue"> -->
+<suite name="SDC Regression Test Suite" parallel = "none">  <!-- parallel = "tests" -->
+ <parameter name="Browser" value = "Chrome"> </parameter>
+ <!-- <parameter name="Browser" value = "FF"> </parameter> -->
+ 
+ <listeners>
+	<listener class-name="TestNGReportCustomisation.CustomTestNGReporter"/>
+  </listeners>
+  
+   <test name="SysTest MRC Process">   
+    <parameter name="Environment" value = "ST"> </parameter>
+    <parameter name="STURL" value = "https://www.sdc-service-test.com/"> </parameter>
+    <parameter name="Username" value = "clement.arockiasamy@lmtom.london"> </parameter>
+    <parameter name="STPassword" value = "SDCLogin321$"> </parameter>    
+    <classes>     
+     <class name="testCases.SysTestFileProcessing"/>          
+    </classes>    
+  </test>
+  
+ <test name="UAT MRC Process">       
+    <parameter name="Environment" value = "UAT"> </parameter>
+    <parameter name="UATURL" value = "https://www.sdc-service-uat.com/"> </parameter>
+    <parameter name="Username" value = "clement.arockiasamy@lmtom.london"> </parameter>
+    <parameter name="UATPassword" value = "SDCLogin321$"> </parameter>
+    <classes>     
+     <class name="testCases.UATFileProcessing"/>           
+    </classes> 
+  </test> 
+  
+  				<!--  Phase 1 - 8 Tests Completed  -->	
+  <test name="MRC Fields Comparison OnPage - ST Vs UAT">       
+    <classes>     
+     <class name="testCases.FieldsDisplayedOnTestPortalShouldMatchTheFieldsDisplayedOnBaselinedPortal"/>           
+    </classes>    
+  </test>
+  <test name="MRC Fields Comparison(ST) - OnPage Vs Downloaded File">   
+    <parameter name="Environment" value = "ST"> </parameter>    
+    <classes>     
+     <class name="testCases.FieldsOnPageShouldMatchTheFieldsInDownloadedFile"/>           
+    </classes>    
+  </test>
+  <test name="MRC Fields Comparison(UAT) - OnPage Vs Downloaded File">   
+    <parameter name="Environment" value = "UAT"> </parameter>    
+    <classes>     
+     <class name="testCases.FieldsOnPageShouldMatchTheFieldsInDownloadedFile"/>           
+    </classes>    
+  </test>
+ <test name="MRC Downloaded CSV Fields Comparison - ST Vs UAT">       
+    <classes>     
+     <class name="testCases.FieldsDownloadedFromTestPortalShouldMatchTheFieldsDownloadedFromBaselinedPortal"/>           
+    </classes>    
+  </test>
+  
+  <test name="MRC XML Comparison OnPage - ST Vs UAT">
+    <parameter name="MRCType" value = "EWSS"> </parameter>        
+    <classes>     
+     <class name="testCases.AcordDisplayedOnTestPortalShouldMatchAcordDisplayedOnBaselinedPortal"/>           
+    </classes>    
+  </test>
+  <test name="MRC XML Comparison(ST) - OnPage Vs Downloaded File">
+    <parameter name="Environment" value = "ST"> </parameter>
+    <parameter name="MRCType" value = "EWSS"> </parameter>     
+    <classes>     
+     <class name="testCases.AcordOnPageShouldMatchAcordInDownloadedFile"/>           
+    </classes>    
+  </test>
+  <test name="MRC XML Comparison(UAT) - OnPage Vs Downloaded File">
+    <parameter name="Environment" value = "UAT"> </parameter> 
+    <parameter name="MRCType" value = "EWSS"> </parameter>    
+    <classes>     
+     <class name="testCases.AcordOnPageShouldMatchAcordInDownloadedFile"/>           
+    </classes>    
+  </test>
+  <test name="MRC Downloaded XML Comparison - ST Vs UAT">    
+    <parameter name="MRCType" value = "EWSS"> </parameter>    
+    <classes>     
+     <class name="testCases.AcordDownloadedFromTestPortalShouldMatchAcordDownloadedFromBaselinedPortal"/>           
+    </classes>    
+  </test> 
+  
+    
+  					<!--  Phase 2 - 10 Email Tests(ST & UAT)  -->
+  <test name="MRC Email Fields Comparison(ST) - OnPage Vs Email File">   
+    <parameter name="Environment" value = "ST"> </parameter>    
+    <classes>     
+     <class name="testCases.FieldsOnPageShouldMatchTheFieldsInEmailedFile"/>           
+    </classes>    
+  </test>  
+  <test name="MRC Email Fields Comparison(ST) - Downloaded Vs Email File">   
+    <parameter name="Environment" value = "ST"> </parameter>    
+    <classes>     
+     <class name="testCases.FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile"/>           
+    </classes>    
+  </test>    																			
+  <test name="MRC Email Fields Comparison(UAT) - OnPage Vs Email File">   
+    <parameter name="Environment" value = "UAT"> </parameter>    
+    <classes>     
+     <class name="testCases.FieldsOnPageShouldMatchTheFieldsInEmailedFile"/>           
+    </classes>    
+  </test>  
+  <test name="MRC Email Fields Comparison(UAT) - Downloaded Vs Email File">   
+    <parameter name="Environment" value = "UAT"> </parameter>    
+    <classes>     
+     <class name="testCases.FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile"/>           
+    </classes>    
+  </test>      
+   
+  <test name="MRC Fields Comparison Emails - ST Vs UAT">       
+    <classes>     
+     <class name="testCases.FieldsEmailedFromTestEnvShouldMatchTheFieldsEmailedFromBaselinedEnv"/>           
+    </classes>    
+  </test>   
+  
+  
+  <test name="MRC Email XML Comparison(ST) - OnPage Vs Email File">
+    <parameter name="Environment" value = "ST"> </parameter> 
+    <parameter name="MRCType" value = "EWSS"> </parameter>    
+    <classes>     
+     <class name="testCases.AcordOnPageShouldMatchAcordInEmailedFile"/>           
+    </classes>    
+  </test>
+  <test name="MRC Email XML Comparison(ST) - Downloaded Vs Email File">
+    <parameter name="Environment" value = "ST"> </parameter> 
+    <parameter name="MRCType" value = "EWSS"> </parameter>    
+    <classes>     
+     <class name="testCases.AcordDownloadedShouldMatchAcordInEmailedFile"/>           
+    </classes>    
+  </test>  
+  <test name="MRC Email XML Comparison(UAT) - OnPage Vs Email File">
+    <parameter name="Environment" value = "UAT"> </parameter> 
+    <parameter name="MRCType" value = "EWSS"> </parameter>    
+    <classes>     
+     <class name="testCases.AcordOnPageShouldMatchAcordInEmailedFile"/>           
+    </classes>    
+  </test>
+  <test name="MRC Email XML Comparison(UAT) - Downloaded Vs Email File">
+    <parameter name="Environment" value = "UAT"> </parameter> 
+    <parameter name="MRCType" value = "EWSS"> </parameter>    
+    <classes>     
+     <class name="testCases.AcordDownloadedShouldMatchAcordInEmailedFile"/>           
+    </classes>    
+  </test>    
+ 
+  <test name="MRC Email XML Comparison Emails - ST Vs UAT">
+    <parameter name="MRCType" value = "EWSS"> </parameter>        
+    <classes>     
+     <class name="testCases.AcordEmailedFromTestEnvShouldMatchAcordEmailedFromBaselinedEnv"/>           
+    </classes>    
+  </test>
+  
+ 
+</suite> <!-- Default suite -->
+            

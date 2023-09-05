@@ -1,0 +1,657 @@
+2022-10-25 15:21:43,662 INFO  [Log] --Source Directory Created 
+2022-10-25 15:21:43,664 INFO  [Log] --Child Directory Created 
+2022-10-25 15:21:43,665 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 15:21:43,666 INFO  [Log] --XML Directory Created 
+2022-10-25 15:21:43,667 INFO  [Log] --Screenshot Directory Created 
+2022-10-25 15:21:43,668 INFO  [Log] --ZipFiles Directory Created 
+2022-10-25 15:21:43,671 INFO  [Log] --LogFile re-created 
+2022-10-25 15:21:43,671 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:43,671 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:43,673 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:43,673 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:43,673 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,090 ERROR [Log] Web Browser NOT launched - Failed 
+2022-10-25 15:21:47,090 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x008A9563+2725219]
+	Ordinal0 [0x007A8551+1672529]
+	Ordinal0 [0x00690359+525145]
+	Ordinal0 [0x0061CA64+51812]
+	Ordinal0 [0x0063CC37+183351]
+	Ordinal0 [0x0063CA3D+182845]
+	Ordinal0 [0x0063A94B+174411]
+	Ordinal0 [0x00622528+75048]
+	Ordinal0 [0x006235A0+79264]
+	Ordinal0 [0x00623539+79161]
+	Ordinal0 [0x007BD607+1758727]
+	GetHandleVerifier [0x009C6546+1050150]
+	GetHandleVerifier [0x009C6291+1049457]
+	GetHandleVerifier [0x009D10D7+1094071]
+	GetHandleVerifier [0x009C6B46+1051686]
+	Ordinal0 [0x007B5B06+1727238]
+	Ordinal0 [0x007BEB7B+1764219]
+	Ordinal0 [0x007BECE3+1764579]
+	Ordinal0 [0x007D4C05+1854469]
+	BaseThreadInitThunk [0x77A5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A6E+238]
+ 
+2022-10-25 15:21:47,090 ERROR [Log] --Sign-In link is not found on the Home Page 
+2022-10-25 15:21:47,122 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2022-10-25 15:21:47,137 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-25 15:21:47,137 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:47,137 INFO  [Log] X 
+2022-10-25 15:21:47,137 INFO  [Log] X 
+2022-10-25 15:21:47,137 INFO  [Log] X 
+2022-10-25 15:21:47,137 INFO  [Log] X 
+2022-10-25 15:21:47,183 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,183 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,183 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UATFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:47,183 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,183 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,791 ERROR [Log] Web Browser NOT launched - Failed 
+2022-10-25 15:21:47,791 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x008A9563+2725219]
+	Ordinal0 [0x007A8551+1672529]
+	Ordinal0 [0x00690359+525145]
+	Ordinal0 [0x0061CA64+51812]
+	Ordinal0 [0x0063CC37+183351]
+	Ordinal0 [0x0063CA3D+182845]
+	Ordinal0 [0x0063A94B+174411]
+	Ordinal0 [0x00622528+75048]
+	Ordinal0 [0x006235A0+79264]
+	Ordinal0 [0x00623539+79161]
+	Ordinal0 [0x007BD607+1758727]
+	GetHandleVerifier [0x009C6546+1050150]
+	GetHandleVerifier [0x009C6291+1049457]
+	GetHandleVerifier [0x009D10D7+1094071]
+	GetHandleVerifier [0x009C6B46+1051686]
+	Ordinal0 [0x007B5B06+1727238]
+	Ordinal0 [0x007BEB7B+1764219]
+	Ordinal0 [0x007BECE3+1764579]
+	Ordinal0 [0x007D4C05+1854469]
+	BaseThreadInitThunk [0x77A5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A6E+238]
+ 
+2022-10-25 15:21:47,791 ERROR [Log] --Sign-In link is not found on the Home Page 
+2022-10-25 15:21:47,791 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2022-10-25 15:21:47,791 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-25 15:21:47,791 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:47,791 INFO  [Log] X 
+2022-10-25 15:21:47,791 INFO  [Log] X 
+2022-10-25 15:21:47,791 INFO  [Log] X 
+2022-10-25 15:21:47,791 INFO  [Log] X 
+2022-10-25 15:21:47,823 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,823 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,823 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsDisplayedOnTestPortalShouldMatchTheFieldsDisplayedOnBaselinedPortal       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:47,823 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,823 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,845 ERROR [Log] Comparison Result: ST Vs UAT OnPage Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:47,845 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:47,845 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:47,845 INFO  [Log] X 
+2022-10-25 15:21:47,845 INFO  [Log] X 
+2022-10-25 15:21:47,845 INFO  [Log] X 
+2022-10-25 15:21:47,845 INFO  [Log] X 
+2022-10-25 15:21:47,876 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,876 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,876 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsOnPageShouldMatchTheFieldsInDownloadedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:47,876 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:47,876 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:52,887 ERROR [Log] Comparison Result: ST OnPage Vs ST Exported Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:52,887 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:52,888 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:52,888 INFO  [Log] X 
+2022-10-25 15:21:52,888 INFO  [Log] X 
+2022-10-25 15:21:52,888 INFO  [Log] X 
+2022-10-25 15:21:52,888 INFO  [Log] X 
+2022-10-25 15:21:52,921 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:52,921 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:52,921 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsOnPageShouldMatchTheFieldsInDownloadedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:52,921 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:52,921 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,923 ERROR [Log] Comparison Result: UAT OnPage Vs UAT Exported Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:57,923 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:57,924 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:57,924 INFO  [Log] X 
+2022-10-25 15:21:57,924 INFO  [Log] X 
+2022-10-25 15:21:57,925 INFO  [Log] X 
+2022-10-25 15:21:57,925 INFO  [Log] X 
+2022-10-25 15:21:57,959 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,959 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,959 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsDownloadedFromTestPortalShouldMatchTheFieldsDownloadedFromBaselinedPortal       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:57,959 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,959 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,959 ERROR [Log] Comparison Result: Downloaded ST CSV file Vs Downloaded UAT CSV file Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:57,959 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:57,959 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:57,959 INFO  [Log] X 
+2022-10-25 15:21:57,959 INFO  [Log] X 
+2022-10-25 15:21:57,959 INFO  [Log] X 
+2022-10-25 15:21:57,959 INFO  [Log] X 
+2022-10-25 15:21:57,990 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,990 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,990 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordDisplayedOnTestPortalShouldMatchAcordDisplayedOnBaselinedPortal       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:57,990 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,990 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:57,990 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,006 ERROR [Log] ST Vs UAT Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,006 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,006 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,006 ERROR [Log] ST Vs UAT Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,006 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,006 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,006 INFO  [Log] X 
+2022-10-25 15:21:58,006 INFO  [Log] X 
+2022-10-25 15:21:58,006 INFO  [Log] X 
+2022-10-25 15:21:58,006 INFO  [Log] X 
+2022-10-25 15:21:58,043 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,043 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,043 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordOnPageShouldMatchAcordInDownloadedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,043 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,043 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,043 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,043 ERROR [Log] ST OnPage Vs ST Exported  Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,043 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,043 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,059 ERROR [Log] ST OnPage Vs ST Exported  Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,059 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,059 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,059 INFO  [Log] X 
+2022-10-25 15:21:58,059 INFO  [Log] X 
+2022-10-25 15:21:58,059 INFO  [Log] X 
+2022-10-25 15:21:58,059 INFO  [Log] X 
+2022-10-25 15:21:58,090 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,090 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,090 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordOnPageShouldMatchAcordInDownloadedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,090 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,090 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,090 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,106 ERROR [Log] UAT OnPage Vs UAT Exported  Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,106 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,106 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,106 ERROR [Log] UAT OnPage Vs UAT Exported  Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,106 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,106 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,106 INFO  [Log] X 
+2022-10-25 15:21:58,106 INFO  [Log] X 
+2022-10-25 15:21:58,106 INFO  [Log] X 
+2022-10-25 15:21:58,106 INFO  [Log] X 
+2022-10-25 15:21:58,144 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,144 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,144 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordDownloadedFromTestPortalShouldMatchAcordDownloadedFromBaselinedPortal       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,144 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,144 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,144 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,144 ERROR [Log] Downloaded ST Vs UAT Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,144 ERROR [Log] Test Case Failed because of Endorsement XML(Part1) verification 
+2022-10-25 15:21:58,144 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,144 ERROR [Log] Downloaded ST Vs UAT Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,144 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,159 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,159 INFO  [Log] X 
+2022-10-25 15:21:58,159 INFO  [Log] X 
+2022-10-25 15:21:58,159 INFO  [Log] X 
+2022-10-25 15:21:58,159 INFO  [Log] X 
+2022-10-25 15:21:58,190 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,190 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,190 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsOnPageShouldMatchTheFieldsInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,190 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,190 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,190 ERROR [Log] Comparison Result: ST OnPage Vs ST Emailed Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,190 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:58,190 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,190 INFO  [Log] X 
+2022-10-25 15:21:58,190 INFO  [Log] X 
+2022-10-25 15:21:58,190 INFO  [Log] X 
+2022-10-25 15:21:58,190 INFO  [Log] X 
+2022-10-25 15:21:58,222 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,222 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,222 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,222 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,222 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,222 ERROR [Log] Comparison Result: ST Downloaded Vs ST Emailed Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,222 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:58,222 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,222 INFO  [Log] X 
+2022-10-25 15:21:58,222 INFO  [Log] X 
+2022-10-25 15:21:58,222 INFO  [Log] X 
+2022-10-25 15:21:58,222 INFO  [Log] X 
+2022-10-25 15:21:58,260 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,260 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,260 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsOnPageShouldMatchTheFieldsInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,260 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,260 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,260 ERROR [Log] Comparison Result: UAT OnPage Vs UAT Emailed Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,260 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:58,275 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,275 INFO  [Log] X 
+2022-10-25 15:21:58,275 INFO  [Log] X 
+2022-10-25 15:21:58,275 INFO  [Log] X 
+2022-10-25 15:21:58,275 INFO  [Log] X 
+2022-10-25 15:21:58,291 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,306 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,306 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,306 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,306 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,306 ERROR [Log] Comparison Result: UAT Downloaded Vs UAT Emailed Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,306 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:58,306 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,306 INFO  [Log] X 
+2022-10-25 15:21:58,306 INFO  [Log] X 
+2022-10-25 15:21:58,306 INFO  [Log] X 
+2022-10-25 15:21:58,306 INFO  [Log] X 
+2022-10-25 15:21:58,338 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,344 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,344 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsEmailedFromTestEnvShouldMatchTheFieldsEmailedFromBaselinedEnv       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,344 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,344 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,344 ERROR [Log] Comparison Result: ST Vs UAT Emailed Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,344 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:21:58,344 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,344 INFO  [Log] X 
+2022-10-25 15:21:58,344 INFO  [Log] X 
+2022-10-25 15:21:58,344 INFO  [Log] X 
+2022-10-25 15:21:58,344 INFO  [Log] X 
+2022-10-25 15:21:58,375 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,375 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,375 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordOnPageShouldMatchAcordInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,375 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,375 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,375 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,375 ERROR [Log] ST OnPage Vs ST Emailed Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,375 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,375 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,391 ERROR [Log] ST OnPage Vs ST Emailed Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,391 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,391 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,391 INFO  [Log] X 
+2022-10-25 15:21:58,391 INFO  [Log] X 
+2022-10-25 15:21:58,391 INFO  [Log] X 
+2022-10-25 15:21:58,391 INFO  [Log] X 
+2022-10-25 15:21:58,427 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,427 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,427 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordDownloadedShouldMatchAcordInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,427 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,427 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,428 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,434 ERROR [Log] ST Downloaded Vs ST Emailed Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,434 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,434 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,440 ERROR [Log] ST Downloaded Vs ST Emailed Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,440 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,441 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,441 INFO  [Log] X 
+2022-10-25 15:21:58,441 INFO  [Log] X 
+2022-10-25 15:21:58,441 INFO  [Log] X 
+2022-10-25 15:21:58,441 INFO  [Log] X 
+2022-10-25 15:21:58,473 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,473 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,473 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordOnPageShouldMatchAcordInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,473 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,473 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,473 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,473 ERROR [Log] UAT OnPage Vs UAT Emailed Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,473 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,473 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,473 ERROR [Log] UAT OnPage Vs UAT Emailed Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,473 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,473 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,473 INFO  [Log] X 
+2022-10-25 15:21:58,473 INFO  [Log] X 
+2022-10-25 15:21:58,473 INFO  [Log] X 
+2022-10-25 15:21:58,473 INFO  [Log] X 
+2022-10-25 15:21:58,520 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,520 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,520 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordDownloadedShouldMatchAcordInEmailedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,520 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,520 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,520 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,520 ERROR [Log] UAT Downloaded Vs UAT Emailed Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,520 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,520 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,520 ERROR [Log] UAT Downloaded Vs UAT Emailed Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,520 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,520 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,520 INFO  [Log] X 
+2022-10-25 15:21:58,520 INFO  [Log] X 
+2022-10-25 15:21:58,520 INFO  [Log] X 
+2022-10-25 15:21:58,520 INFO  [Log] X 
+2022-10-25 15:21:58,560 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,560 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,560 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 AcordEmailedFromTestEnvShouldMatchAcordEmailedFromBaselinedEnv       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:21:58,560 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,560 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:21:58,560 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,560 ERROR [Log] Emailed ST Vs UAT Endorsement XML(Part-1) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,560 ERROR [Log] Test Case Failed because of Endorsement XML(Part-1) verification 
+2022-10-25 15:21:58,560 ERROR [Log] Comparison Result: The comparable XML File(s) Not Found.Please check whether the processed document types are same in both environment (OR) All the files are generated with expected naming standards. 
+2022-10-25 15:21:58,576 ERROR [Log] Emailed ST Vs UAT Section-1 XML(Part-2) Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:21:58,576 ERROR [Log]  & Test Case Failed because of Endorsement XML(Part-1) verification & Test Case Failed because of Section-1 XML(Part-2) verification 
+2022-10-25 15:21:58,576 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:21:58,576 INFO  [Log] X 
+2022-10-25 15:21:58,576 INFO  [Log] X 
+2022-10-25 15:21:58,576 INFO  [Log] X 
+2022-10-25 15:21:58,576 INFO  [Log] X 
+2022-10-25 15:33:02,977 INFO  [Log] --Source Directory Created 
+2022-10-25 15:33:02,977 INFO  [Log] --Child Directory Created 
+2022-10-25 15:33:02,977 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 15:33:02,977 INFO  [Log] --XML Directory Created 
+2022-10-25 15:33:02,977 INFO  [Log] --Screenshot Directory Created 
+2022-10-25 15:33:02,977 INFO  [Log] --ZipFiles Directory Created 
+2022-10-25 15:33:02,983 INFO  [Log] --LogFile re-created 
+2022-10-25 15:33:02,983 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:33:02,983 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:33:02,983 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:33:02,983 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:33:02,983 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:33:06,394 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 15:33:06,584 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 15:35:09,089 INFO  [Log] --Source Directory Created 
+2022-10-25 15:35:09,104 INFO  [Log] --Child Directory Created 
+2022-10-25 15:35:09,104 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 15:35:09,104 INFO  [Log] --XML Directory Created 
+2022-10-25 15:35:09,104 INFO  [Log] --Screenshot Directory Created 
+2022-10-25 15:35:09,104 INFO  [Log] --ZipFiles Directory Created 
+2022-10-25 15:35:09,111 INFO  [Log] --LogFile re-created 
+2022-10-25 15:35:09,111 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:35:09,111 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:35:09,111 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:35:09,111 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:35:09,111 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:35:12,060 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 15:35:12,221 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 15:35:12,880 INFO  [Log] Web Browser launched successfully 
+2022-10-25 15:48:27,282 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:48:27,282 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:48:27,282 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:48:27,282 INFO  [Log] --Source Directory Already Existed 
+2022-10-25 15:48:27,282 INFO  [Log] --Child Directory Created 
+2022-10-25 15:48:27,282 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 15:48:27,282 INFO  [Log] --XML Directory Created 
+2022-10-25 15:48:27,282 INFO  [Log] --Screenshot Directory Already Existed 
+2022-10-25 15:48:27,282 INFO  [Log] --ZipFiles Directory Already Existed 
+2022-10-25 15:48:27,282 INFO  [Log] --LogFile re-created 
+2022-10-25 15:48:27,282 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:27,282 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:27,298 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:48:27,298 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:27,298 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:30,193 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 15:48:30,410 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 15:48:30,841 INFO  [Log] Web Browser launched successfully 
+2022-10-25 15:48:32,917 ERROR [Log] --UserName textbox is not found on the Home Page 
+2022-10-25 15:48:33,070 INFO  [Log] Screenshot taken 
+2022-10-25 15:48:33,070 ERROR [Log] invalid selector: Unable to locate an element with the xpath expression //*[@id="splash-login-username"]'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="splash-login-username"]']' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\vgeorge\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f194b49602c147091188e64d0bdb1409
+*** Element info: {Using=xpath, value=//*[@id="splash-login-username"]']} 
+2022-10-25 15:48:33,080 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-25 15:48:33,080 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:48:33,080 INFO  [Log] X 
+2022-10-25 15:48:33,080 INFO  [Log] X 
+2022-10-25 15:48:33,080 INFO  [Log] X 
+2022-10-25 15:48:33,080 INFO  [Log] X 
+2022-10-25 15:48:33,131 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:33,131 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:33,131 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UATFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:48:33,131 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:33,131 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:34,843 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 15:48:35,003 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 15:48:35,432 ERROR [Log] Web Browser NOT launched - Failed 
+2022-10-25 15:48:35,432 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\vgeorge\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e059208e524ebf72f6c30684d26f140 
+2022-10-25 15:48:35,457 ERROR [Log] --UserName textbox is not found on the Home Page 
+2022-10-25 15:48:35,611 INFO  [Log] Screenshot taken 
+2022-10-25 15:48:35,611 ERROR [Log] invalid selector: Unable to locate an element with the xpath expression //*[@id="splash-login-username"]'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="splash-login-username"]']' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\vgeorge\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e059208e524ebf72f6c30684d26f140
+*** Element info: {Using=xpath, value=//*[@id="splash-login-username"]']} 
+2022-10-25 15:48:35,623 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-25 15:48:35,623 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:48:35,623 INFO  [Log] X 
+2022-10-25 15:48:35,623 INFO  [Log] X 
+2022-10-25 15:48:35,623 INFO  [Log] X 
+2022-10-25 15:48:35,623 INFO  [Log] X 
+2022-10-25 15:48:35,665 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:35,665 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:35,665 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsDisplayedOnTestPortalShouldMatchTheFieldsDisplayedOnBaselinedPortal       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:48:35,665 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:35,665 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:35,671 ERROR [Log] Comparison Result: ST Vs UAT OnPage Fields Comparision Failed. Please see the comparision output error log file for more info 
+2022-10-25 15:48:35,671 ERROR [Log] Test Case Failed because of verification 
+2022-10-25 15:48:35,672 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:48:35,672 INFO  [Log] X 
+2022-10-25 15:48:35,672 INFO  [Log] X 
+2022-10-25 15:48:35,672 INFO  [Log] X 
+2022-10-25 15:48:35,672 INFO  [Log] X 
+2022-10-25 15:48:35,710 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:35,710 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:35,710 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 FieldsOnPageShouldMatchTheFieldsInDownloadedFile       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:48:35,710 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:48:35,710 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:52:41,664 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:52:41,664 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:52:41,664 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:52:41,664 INFO  [Log] --Source Directory Already Existed 
+2022-10-25 15:52:41,664 INFO  [Log] --Child Directory Created 
+2022-10-25 15:52:41,664 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 15:52:41,664 INFO  [Log] --XML Directory Created 
+2022-10-25 15:52:41,664 INFO  [Log] --Screenshot Directory Already Existed 
+2022-10-25 15:52:41,664 INFO  [Log] --ZipFiles Directory Already Existed 
+2022-10-25 15:52:41,664 INFO  [Log] --LogFile re-created 
+2022-10-25 15:52:41,664 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:52:41,664 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:52:41,664 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:52:41,664 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:52:41,664 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:52:44,579 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 15:52:44,819 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 15:52:45,206 INFO  [Log] Web Browser launched successfully 
+2022-10-25 15:52:47,240 INFO  [Log] --UserName textbox is found on the Home Page 
+2022-10-25 15:52:47,311 INFO  [Log] --Password textbox is found on the Home Page 
+2022-10-25 15:52:47,391 INFO  [Log] --Login button is found on the Home Page 
+2022-10-25 15:59:29,782 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:59:29,798 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:59:29,798 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 15:59:29,798 INFO  [Log] --Source Directory Already Existed 
+2022-10-25 15:59:29,798 INFO  [Log] --Child Directory Created 
+2022-10-25 15:59:29,798 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 15:59:29,798 INFO  [Log] --XML Directory Created 
+2022-10-25 15:59:29,798 INFO  [Log] --Screenshot Directory Already Existed 
+2022-10-25 15:59:29,798 INFO  [Log] --ZipFiles Directory Already Existed 
+2022-10-25 15:59:29,798 INFO  [Log] --LogFile re-created 
+2022-10-25 15:59:29,798 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:29,798 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:29,798 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:59:29,798 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:29,798 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:32,714 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 15:59:32,939 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 15:59:33,386 INFO  [Log] Web Browser launched successfully 
+2022-10-25 15:59:35,405 INFO  [Log] --UserName textbox is found on the Home Page 
+2022-10-25 15:59:35,501 INFO  [Log] --Password textbox is found on the Home Page 
+2022-10-25 15:59:35,581 INFO  [Log] --Login button is found on the Home Page 
+2022-10-25 15:59:37,119 INFO  [Log] --Constituents link is found on the Signed in page 
+2022-10-25 15:59:37,243 INFO  [Log] Step 1: SDC-ST Portal Home Page Launched Successfully - PASSED 
+2022-10-25 15:59:37,243 INFO  [Log] Step 2: SDC-ST Sign-In completed successfully - PASSED 
+2022-10-25 15:59:37,243 INFO  [Log] Final: SDC-SysTest All MRC file processing completed successfully 
+2022-10-25 15:59:37,246 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-25 15:59:37,246 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 15:59:37,246 INFO  [Log] X 
+2022-10-25 15:59:37,246 INFO  [Log] X 
+2022-10-25 15:59:37,246 INFO  [Log] X 
+2022-10-25 15:59:37,246 INFO  [Log] X 
+2022-10-25 15:59:37,318 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:37,318 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:37,318 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UATFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 15:59:37,318 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:37,318 INFO  [Log] **************************************************************************************** 
+2022-10-25 15:59:39,135 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 15:59:39,307 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 15:59:39,725 ERROR [Log] Web Browser NOT launched - Failed 
+2022-10-25 15:59:39,725 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\vgeorge\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16da26ed020f882a0196b7a4a780c4f0 
+2022-10-25 16:01:05,626 INFO  [Log] --Source Directory Created 
+2022-10-25 16:01:05,626 INFO  [Log] --Child Directory Created 
+2022-10-25 16:01:05,626 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 16:01:05,626 INFO  [Log] --XML Directory Created 
+2022-10-25 16:01:05,626 INFO  [Log] --Screenshot Directory Created 
+2022-10-25 16:01:05,626 INFO  [Log] --ZipFiles Directory Created 
+2022-10-25 16:01:05,626 INFO  [Log] --LogFile re-created 
+2022-10-25 16:01:05,626 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:01:05,626 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:01:05,626 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 16:01:05,626 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:01:05,626 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:01:09,951 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 16:01:10,127 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 16:01:10,488 INFO  [Log] Web Browser launched successfully 
+2022-10-25 16:01:12,533 INFO  [Log] --UserName textbox is found on the Home Page 
+2022-10-25 16:01:12,623 INFO  [Log] --Password textbox is found on the Home Page 
+2022-10-25 16:01:12,703 INFO  [Log] --Login button is found on the Home Page 
+2022-10-25 16:01:14,264 INFO  [Log] --Constituents link is found on the Signed in page 
+2022-10-25 16:01:14,373 INFO  [Log] Step 1: SDC-ST Portal Home Page Launched Successfully - PASSED 
+2022-10-25 16:01:14,374 INFO  [Log] Step 2: SDC-ST Sign-In completed successfully - PASSED 
+2022-10-25 16:01:14,374 INFO  [Log] Final: SDC-SysTest All MRC file processing completed successfully 
+2022-10-25 16:01:14,376 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-25 16:01:14,376 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 16:01:14,376 INFO  [Log] X 
+2022-10-25 16:01:14,376 INFO  [Log] X 
+2022-10-25 16:01:14,376 INFO  [Log] X 
+2022-10-25 16:01:14,376 INFO  [Log] X 
+2022-10-25 16:08:55,874 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 16:08:55,874 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 16:08:55,890 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-25 16:08:55,890 INFO  [Log] --Source Directory Already Existed 
+2022-10-25 16:08:55,890 INFO  [Log] --Child Directory Created 
+2022-10-25 16:08:55,890 INFO  [Log] --MRC Field Directory Created 
+2022-10-25 16:08:55,890 INFO  [Log] --XML Directory Created 
+2022-10-25 16:08:55,890 INFO  [Log] --Screenshot Directory Already Existed 
+2022-10-25 16:08:55,890 INFO  [Log] --ZipFiles Directory Already Existed 
+2022-10-25 16:08:55,890 INFO  [Log] --LogFile re-created 
+2022-10-25 16:08:55,890 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:08:55,890 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:08:55,890 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-25 16:08:55,890 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:08:55,890 INFO  [Log] **************************************************************************************** 
+2022-10-25 16:08:58,828 INFO  [Log] New Chrome driver instantiated 
+2022-10-25 16:08:59,063 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-25 16:08:59,537 INFO  [Log] Web Browser launched successfully 
+2022-10-25 16:09:01,568 INFO  [Log] --UserName textbox is found on the Home Page 
+2022-10-25 16:09:01,656 INFO  [Log] --Password textbox is found on the Home Page 
+2022-10-25 16:09:01,743 INFO  [Log] --Login button is found on the Home Page 
+2022-10-25 16:09:03,459 INFO  [Log] --Constituents link is found on the Signed in page 
+2022-10-25 16:09:03,570 INFO  [Log] Step 1: SDC-ST Portal Home Page Launched Successfully - PASSED 
+2022-10-25 16:09:03,570 INFO  [Log] Step 2: UoS-ST Sign-In completed successfully - PASSED 
+2022-10-25 16:09:03,570 INFO  [Log] Final: UoS-SysTest completed successfully 
+2022-10-25 16:09:03,572 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-25 16:09:03,572 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-25 16:09:03,572 INFO  [Log] X 
+2022-10-25 16:09:03,572 INFO  [Log] X 
+2022-10-25 16:09:03,572 INFO  [Log] X 
+2022-10-25 16:09:03,572 INFO  [Log] X 
+2022-10-26 14:56:40,531 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-26 14:56:40,536 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-26 14:56:40,539 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2022-10-26 14:56:40,539 INFO  [Log] --Source Directory Already Existed 
+2022-10-26 14:56:40,540 INFO  [Log] --Child Directory Created 
+2022-10-26 14:56:40,541 INFO  [Log] --MRC Field Directory Created 
+2022-10-26 14:56:40,542 INFO  [Log] --XML Directory Created 
+2022-10-26 14:56:40,542 INFO  [Log] --Screenshot Directory Already Existed 
+2022-10-26 14:56:40,542 INFO  [Log] --ZipFiles Directory Already Existed 
+2022-10-26 14:56:40,545 INFO  [Log] --LogFile re-created 
+2022-10-26 14:56:40,545 INFO  [Log] **************************************************************************************** 
+2022-10-26 14:56:40,545 INFO  [Log] **************************************************************************************** 
+2022-10-26 14:56:40,545 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2022-10-26 14:56:40,545 INFO  [Log] **************************************************************************************** 
+2022-10-26 14:56:40,545 INFO  [Log] **************************************************************************************** 
+2022-10-26 14:56:45,198 INFO  [Log] New Chrome driver instantiated 
+2022-10-26 14:56:45,470 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2022-10-26 14:56:45,976 INFO  [Log] Web Browser launched successfully 
+2022-10-26 14:56:48,003 INFO  [Log] --UserName textbox is found on the Home Page 
+2022-10-26 14:56:48,112 INFO  [Log] --Password textbox is found on the Home Page 
+2022-10-26 14:56:48,213 INFO  [Log] --Login button is found on the Home Page 
+2022-10-26 14:56:50,721 INFO  [Log] --Constituents link is found on the Signed in page 
+2022-10-26 14:56:50,926 INFO  [Log] Step 1: SDC-ST Portal Home Page Launched Successfully - PASSED 
+2022-10-26 14:56:50,926 INFO  [Log] Step 2: UoS-ST Sign-In completed successfully - PASSED 
+2022-10-26 14:56:50,926 INFO  [Log] Final: UoS-SysTest completed successfully 
+2022-10-26 14:56:50,929 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2022-10-26 14:56:50,929 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2022-10-26 14:56:50,929 INFO  [Log] X 
+2022-10-26 14:56:50,929 INFO  [Log] X 
+2022-10-26 14:56:50,929 INFO  [Log] X 
+2022-10-26 14:56:50,929 INFO  [Log] X 
+2023-09-05 16:56:56,727 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2023-09-05 16:56:56,738 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2023-09-05 16:56:56,744 INFO  [Log] All the files and folders deleted under the given path: C:\SDC_Automation_Outputs\OutputFiles-EWSS 
+2023-09-05 16:56:56,745 INFO  [Log] --Source Directory Already Existed 
+2023-09-05 16:56:56,748 INFO  [Log] --Child Directory Created 
+2023-09-05 16:56:56,751 INFO  [Log] --MRC Field Directory Created 
+2023-09-05 16:56:56,754 INFO  [Log] --XML Directory Created 
+2023-09-05 16:56:56,754 INFO  [Log] --Screenshot Directory Already Existed 
+2023-09-05 16:56:56,756 INFO  [Log] --ZipFiles Directory Already Existed 
+2023-09-05 16:56:56,764 INFO  [Log] --LogFile re-created 
+2023-09-05 16:56:56,764 INFO  [Log] **************************************************************************************** 
+2023-09-05 16:56:56,764 INFO  [Log] **************************************************************************************** 
+2023-09-05 16:56:56,764 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SysTestFileProcessing       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-09-05 16:56:56,764 INFO  [Log] **************************************************************************************** 
+2023-09-05 16:56:56,764 INFO  [Log] **************************************************************************************** 
+2023-09-05 16:56:59,832 INFO  [Log] New Chrome driver instantiated 
+2023-09-05 16:56:59,986 INFO  [Log] Implicit wait applied on the driver for 40 seconds 
+2023-09-05 16:57:00,744 ERROR [Log] Web Browser NOT launched - Failed 
+2023-09-05 16:57:00,745 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vgeorge\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63060}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db32d9e6a7e2727b62bc8f245efdaa03 
+2023-09-05 16:57:40,876 ERROR [Log] --UserName textbox is not found on the Home Page 
+2023-09-05 16:57:41,145 INFO  [Log] Screenshot taken 
+2023-09-05 16:57:41,145 ERROR [Log] no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div[1]/table/tbody/tr[1]/td[2]/input"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MKNB1181', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vgeorge\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63060}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db32d9e6a7e2727b62bc8f245efdaa03
+*** Element info: {Using=xpath, value=/html/body/div[2]/div[1]/table/tbody/tr[1]/td[2]/input} 
+2023-09-05 16:57:41,152 INFO  [Log] Performance: The total time taken to complete the test is: 0 min(s) 
+2023-09-05 16:57:41,152 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-09-05 16:57:41,152 INFO  [Log] X 
+2023-09-05 16:57:41,152 INFO  [Log] X 
+2023-09-05 16:57:41,152 INFO  [Log] X 
+2023-09-05 16:57:41,152 INFO  [Log] X 

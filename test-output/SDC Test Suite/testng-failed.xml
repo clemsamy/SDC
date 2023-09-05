@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SDC Test Suite]">
+  <test name="SDC ST test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="SDCAutomation.TestNG">
+        <methods>
+          <include name="Login"/>
+          <include name="SignOut"/>
+        </methods>
+      </class> <!-- SDCAutomation.TestNG -->
+    </classes>
+  </test> <!-- SDC ST test(failed) -->
+</suite> <!-- Failed suite [SDC Test Suite] -->

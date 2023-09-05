@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SDC Regression Test Suite]">
+  <parameter name="Browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="TestNGReportCustomisation.CustomTestNGReporter"/>
+  </listeners>
+  <test name="SysTest MRC Process(failed)">
+    <parameter name="STPassword" value="SDCLogin3211111$"/>
+    <parameter name="Username" value="clement.arockiasamy@lmtom.londonnnnn"/>
+    <parameter name="STURL" value="https://www.test.com/"/>
+    <parameter name="Environment" value="ST"/>
+    <classes>
+      <class name="testCases.SysTestFileProcessing">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SysTestMRCFileProcessing" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.SysTestFileProcessing -->
+    </classes>
+  </test> <!-- SysTest MRC Process(failed) -->
+  <test name="UAT MRC Process(failed)">
+    <parameter name="UATURL" value="https://www.h-uat.com/"/>
+    <parameter name="Username" value="clement@lmtom.londonnnnnn"/>
+    <parameter name="Environment" value="UAT"/>
+    <parameter name="UATPassword" value="SDCLogin3211111111$"/>
+    <classes>
+      <class name="testCases.UATFileProcessing">
+        <methods>
+          <include name="UATMRCFileProcessing" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.UATFileProcessing -->
+    </classes>
+  </test> <!-- UAT MRC Process(failed) -->
+  <test name="MRC Fields Comparison OnPage - ST Vs UAT(failed)">
+    <classes>
+      <class name="testCases.FieldsDisplayedOnTestPortalShouldMatchTheFieldsDisplayedOnBaselinedPortal">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Execute"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsDisplayedOnTestPortalShouldMatchTheFieldsDisplayedOnBaselinedPortal -->
+    </classes>
+  </test> <!-- MRC Fields Comparison OnPage - ST Vs UAT(failed) -->
+  <test name="MRC Fields Comparison(ST) - OnPage Vs Downloaded File(failed)">
+    <parameter name="Environment" value="ST"/>
+    <classes>
+      <class name="testCases.FieldsOnPageShouldMatchTheFieldsInDownloadedFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsOnPageShouldMatchTheFieldsInDownloadedFile -->
+    </classes>
+  </test> <!-- MRC Fields Comparison(ST) - OnPage Vs Downloaded File(failed) -->
+  <test name="MRC Fields Comparison(UAT) - OnPage Vs Downloaded File(failed)">
+    <parameter name="Environment" value="UAT"/>
+    <classes>
+      <class name="testCases.FieldsOnPageShouldMatchTheFieldsInDownloadedFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsOnPageShouldMatchTheFieldsInDownloadedFile -->
+    </classes>
+  </test> <!-- MRC Fields Comparison(UAT) - OnPage Vs Downloaded File(failed) -->
+  <test name="MRC Downloaded CSV Fields Comparison - ST Vs UAT(failed)">
+    <classes>
+      <class name="testCases.FieldsDownloadedFromTestPortalShouldMatchTheFieldsDownloadedFromBaselinedPortal">
+        <methods>
+          <include name="Execute"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsDownloadedFromTestPortalShouldMatchTheFieldsDownloadedFromBaselinedPortal -->
+    </classes>
+  </test> <!-- MRC Downloaded CSV Fields Comparison - ST Vs UAT(failed) -->
+  <test name="MRC XML Comparison OnPage - ST Vs UAT(failed)">
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordDisplayedOnTestPortalShouldMatchAcordDisplayedOnBaselinedPortal">
+        <methods>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.AcordDisplayedOnTestPortalShouldMatchAcordDisplayedOnBaselinedPortal -->
+    </classes>
+  </test> <!-- MRC XML Comparison OnPage - ST Vs UAT(failed) -->
+  <test name="MRC XML Comparison(ST) - OnPage Vs Downloaded File(failed)">
+    <parameter name="Environment" value="ST"/>
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordOnPageShouldMatchAcordInDownloadedFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.AcordOnPageShouldMatchAcordInDownloadedFile -->
+    </classes>
+  </test> <!-- MRC XML Comparison(ST) - OnPage Vs Downloaded File(failed) -->
+  <test name="MRC XML Comparison(UAT) - OnPage Vs Downloaded File(failed)">
+    <parameter name="Environment" value="UAT"/>
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordOnPageShouldMatchAcordInDownloadedFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.AcordOnPageShouldMatchAcordInDownloadedFile -->
+    </classes>
+  </test> <!-- MRC XML Comparison(UAT) - OnPage Vs Downloaded File(failed) -->
+  <test name="MRC Downloaded XML Comparison - ST Vs UAT(failed)">
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordDownloadedFromTestPortalShouldMatchAcordDownloadedFromBaselinedPortal">
+        <methods>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.AcordDownloadedFromTestPortalShouldMatchAcordDownloadedFromBaselinedPortal -->
+    </classes>
+  </test> <!-- MRC Downloaded XML Comparison - ST Vs UAT(failed) -->
+  <test name="MRC Email Fields Comparison(ST) - OnPage Vs Email File(failed)">
+    <parameter name="Environment" value="ST"/>
+    <classes>
+      <class name="testCases.FieldsOnPageShouldMatchTheFieldsInEmailedFile">
+        <methods>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsOnPageShouldMatchTheFieldsInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email Fields Comparison(ST) - OnPage Vs Email File(failed) -->
+  <test name="MRC Email Fields Comparison(ST) - Downloaded Vs Email File(failed)">
+    <parameter name="Environment" value="ST"/>
+    <classes>
+      <class name="testCases.FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email Fields Comparison(ST) - Downloaded Vs Email File(failed) -->
+  <test name="MRC Email Fields Comparison(UAT) - OnPage Vs Email File(failed)">
+    <parameter name="Environment" value="UAT"/>
+    <classes>
+      <class name="testCases.FieldsOnPageShouldMatchTheFieldsInEmailedFile">
+        <methods>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsOnPageShouldMatchTheFieldsInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email Fields Comparison(UAT) - OnPage Vs Email File(failed) -->
+  <test name="MRC Email Fields Comparison(UAT) - Downloaded Vs Email File(failed)">
+    <parameter name="Environment" value="UAT"/>
+    <classes>
+      <class name="testCases.FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.FieldsInDownloadedFileShouldMatchTheFieldsInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email Fields Comparison(UAT) - Downloaded Vs Email File(failed) -->
+  <test name="MRC Fields Comparison Emails - ST Vs UAT(failed)">
+    <classes>
+      <class name="testCases.FieldsEmailedFromTestEnvShouldMatchTheFieldsEmailedFromBaselinedEnv">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="Execute"/>
+        </methods>
+      </class> <!-- testCases.FieldsEmailedFromTestEnvShouldMatchTheFieldsEmailedFromBaselinedEnv -->
+    </classes>
+  </test> <!-- MRC Fields Comparison Emails - ST Vs UAT(failed) -->
+  <test name="MRC Email XML Comparison(ST) - OnPage Vs Email File(failed)">
+    <parameter name="Environment" value="ST"/>
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordOnPageShouldMatchAcordInEmailedFile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.AcordOnPageShouldMatchAcordInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email XML Comparison(ST) - OnPage Vs Email File(failed) -->
+  <test name="MRC Email XML Comparison(ST) - Downloaded Vs Email File(failed)">
+    <parameter name="Environment" value="ST"/>
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordDownloadedShouldMatchAcordInEmailedFile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.AcordDownloadedShouldMatchAcordInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email XML Comparison(ST) - Downloaded Vs Email File(failed) -->
+  <test name="MRC Email XML Comparison(UAT) - OnPage Vs Email File(failed)">
+    <parameter name="Environment" value="UAT"/>
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordOnPageShouldMatchAcordInEmailedFile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.AcordOnPageShouldMatchAcordInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email XML Comparison(UAT) - OnPage Vs Email File(failed) -->
+  <test name="MRC Email XML Comparison(UAT) - Downloaded Vs Email File(failed)">
+    <parameter name="Environment" value="UAT"/>
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordDownloadedShouldMatchAcordInEmailedFile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.AcordDownloadedShouldMatchAcordInEmailedFile -->
+    </classes>
+  </test> <!-- MRC Email XML Comparison(UAT) - Downloaded Vs Email File(failed) -->
+  <test name="MRC Email XML Comparison Emails - ST Vs UAT(failed)">
+    <parameter name="MRCType" value="EWSS"/>
+    <classes>
+      <class name="testCases.AcordEmailedFromTestEnvShouldMatchAcordEmailedFromBaselinedEnv">
+        <methods>
+          <include name="Execute" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.AcordEmailedFromTestEnvShouldMatchAcordEmailedFromBaselinedEnv -->
+    </classes>
+  </test> <!-- MRC Email XML Comparison Emails - ST Vs UAT(failed) -->
+</suite> <!-- Failed suite [SDC Regression Test Suite] -->
